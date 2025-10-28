@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuestro Espacio | Galería</title>
+  <link rel="stylesheet" href="src/css/main.css" />
+  <script defer src="src/js/main.js"></script>
+  <script defer src="src/js/theme.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">Nuestro Espacio ❤️</div>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="galeria.html" class="active">Galería</a>
+      <a href="futuro.html">Futuro</a>
+      <a href="cartas.html">Carta 💌</a> <!-- 🔗 Nuevo enlace -->
+      <button id="themeToggle" class="theme-toggle">🌓</button>
+    </nav>
+  </header>
+
+  <main class="section">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="src/assets/img/cita-coche.png" alt="Recuerdo 1">
+          </div>
+          <div class="card-back">
+            <p>Una cita inolvidable ❤️</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="src/assets/img/arraate-alex.png" alt="Recuerdo 3">
+          </div>
+          <div class="card-back">
+            <p>47 horas<br>2846 minutos<br>170760 segundos 💫</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="src/assets/img/casa.png" alt="Recuerdo 2">
+          </div>
+          <div class="card-back">
+            <p>Nuestra futura casa ✨</p>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+    <div class="card video-card">
+      <video controls poster="src/assets/img/video-preview.png" width="100%" height="auto">
+        <source src="src/assets/videos/Video de WhatsApp 2025-10-28 a las 18.59.52_6225f030.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+      <p>Un recuerdo en movimiento 🎬</p>
+    </div>
+
+
+  </main>
+
+  <footer class="footer">
+    <p>Hecho con ❤️ por nosotros | <span id="year"></span></p>
+  </footer>
+</body>
+
+</html>
